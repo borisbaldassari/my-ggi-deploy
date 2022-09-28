@@ -8,8 +8,8 @@ You have just setup your own Good Governance Initiative dashboard. You may now:
 * Register on the [mailing list](https://accounts.eclipse.org/mailing-list/ospo.zone) to introduce yourself to the community, and start asking questions!
 
 You can also note these interesting links:
-* Communicate this URL to your teams: [GGI_PAGES_URL].
-* Communicate this URL to your teams: [GGI_ACTIVITIES_URL].
+* Communicate this URL to your teams: https://ggi.ow2.io/my-ggi-board-test.
+* Communicate this URL to your teams: https://gitlab.ow2.org/ggi/my-ggi-board-test/-/boards.
 
 
 Note: this message will disappear once you start making progress on tasks.
