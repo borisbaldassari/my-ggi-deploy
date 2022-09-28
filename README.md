@@ -4,7 +4,7 @@
 
 This is the home of your own Good Governance Initiative tracking board.
 
-Once set up (see below), you can find the published website at [GGI_PAGES_URL].
+Once set up (see below), you can find the published website at https://ggi.ow2.io/my-ggi-board-test.
 
 The goal is
 - to fork the [my-ggi-board repository](https://gitlab.ow2.org/ggi/my-ggi-board) in your own GitLab space.
