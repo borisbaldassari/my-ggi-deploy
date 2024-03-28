@@ -107,7 +107,7 @@ if 'CI_PROJECT_PATH' in os.environ:
     GGI_GITLAB_PROJECT = os.environ['CI_PROJECT_PATH']
     print("- Use GitLab Project from environment variable")
 else:
-    print("- Use GitLab URL from configuration file")
+    print("- Use GitLab Project from configuration file")
     GGI_GITLAB_PROJECT = conf['gitlab_project']
 
 if 'GGI_GITLAB_TOKEN' in os.environ:
@@ -133,7 +133,8 @@ gl = gitlab.Gitlab(url=GGI_GITLAB_URL, per_page=50, private_token=os.environ['GG
 project = gl.projects.get(GGI_GITLAB_PROJECT)
 
 print("# Fetching issues..")
-gl_issues = project.issues.list(state='opened', all=True)
+labels = ['Usage Goal', 'Trust Goal', 'Culture Goal', 'Engagement Goal', 'Strategy Goal']
+gl_issues = project.issues.list(state='opened', labels=labels, all=True)
 
 # Define columns for recorded dataframes.
 issues = []
@@ -152,6 +153,7 @@ tasks = []
 activities_dataset = []
 
 for i in gl_issues:
+
     desc = i.description
     paragraphs = desc.split('\n\n')
     lines = desc.split('\n')
@@ -181,14 +183,17 @@ for i in gl_issues:
         n_type = 'label'
         label = n.label['name'] if n.label else ''
         n_action = f"{n.action} {label}"
+        user = n.user['username'] if n.user else ''
+        print(n)
         line = [n.created_at, i.iid,
-                n.id, n_type, n.user['username'], 
+                n.id, n_type, user, 
                 n_action, i.web_url]
         hist.append(line)
 
     print(f"- {i.iid} - {a_id} - {i.title} - {i.web_url} - {i.updated_at}.")
         
-    # Remove these lines when dev/debug is over
+    # Security measure: if count is greater than the number of activities,
+    # something's wrong. get out of there.
     if count == 30:
         break
     else:
@@ -308,8 +313,6 @@ with open('web/content/includes/activities.js.inc', 'w') as f:
 if issues_not_started.shape[0] < 25:
     with open('web/content/includes/initialisation.inc', 'w') as f:
         f.write('')
-
-# TODO : remove all unused anymore .inc
 
 #
 # Setup website
