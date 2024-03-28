@@ -135,6 +135,7 @@ project = gl.projects.get(GGI_GITLAB_PROJECT)
 print("# Fetching issues..")
 labels = ['Usage Goal', 'Trust Goal', 'Culture Goal', 'Engagement Goal', 'Strategy Goal']
 gl_issues = project.issues.list(state='opened', labels=labels, all=True)
+print(f"# Found {len(gl_issues)} issues.")
 
 # Define columns for recorded dataframes.
 issues = []
