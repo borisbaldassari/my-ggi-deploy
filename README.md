@@ -76,7 +76,6 @@ In case the instance admin has disabled the _project_ access token, you can use 
 1. Commit and publish that file to your repository
 1. Export the access token as an environment variable: `export GGI_GITLAB_TOKEN=xxxxxxx`.
 1. Enable CI/CD feature for the project : go to Settings > Visibility, project features, permissions > CI/CD and save changes
-1. Configure GitLab Pages feature for the project : go to Deploy > Pages, uncheck 'Use unique domain' and Save changes
 1. Create a CI/CD env variable: go to Settings > CI/CD > Variables, then add a variable named `GGI_GITLAB_TOKEN` and set the access token as the value. Make it `Masked and hidden` (will not be shown in Jobs logs and revealed once set), `Protected` (cannot be used in non-protected branches) and non-expandable. 
 
     <img src="resources/setup_create-variable-1.png" width="50%" height="50%"> <img src="resources/setup_create-variable-2.png" width="50%" height="50%">
@@ -95,7 +94,7 @@ In case the instance admin has disabled the _project_ access token, you can use 
   - Replace the URL in the README.
 
 10. Commit your changes: `git commit -m 'initial commit' -a`
-1. Push to the local gitlab instance on the `main` branch: `git push my-ggi`. That will:
+1. Push to the local gitlab instance on the `main` branch: `git push`. That will:
   - Create a pipeline and gitlab page thanks to the `.gitlab_ci.yml` file.
   - Execute the ggi_update_website script, updating the website's content.
   - Publish the gitlab page.
