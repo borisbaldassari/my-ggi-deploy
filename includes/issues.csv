@@ -1,12 +1,26 @@
 issue_id,activity_id,state,title,labels,updated_at,url,tasks_total,tasks_done
-2701618083,GGI-A-37,open,Open source enabling digital transformation,"Decision Maker,Done,Strategy Goal",2024-11-28 10:21:06+00:00,https://api.github.com/repos/ospo-alliance/my-ggi-board-test/issues/11,0,0
-2701617966,GGI-A-36,open,Open source enabling innovation,"Decision Maker,Not Selected,Strategy Goal",2024-11-28 10:16:15+00:00,https://api.github.com/repos/ospo-alliance/my-ggi-board-test/issues/10,0,0
-2701617857,GGI-A-35,open,Open source and digital sovereignty,"Decision Maker,Not Selected,Strategy Goal",2024-11-28 10:16:12+00:00,https://api.github.com/repos/ospo-alliance/my-ggi-board-test/issues/9,0,0
-2701617751,GGI-A-34,open,C-Level awareness,"Decision Maker,In Progress,Strategy Goal",2024-11-28 10:21:47+00:00,https://api.github.com/repos/ospo-alliance/my-ggi-board-test/issues/8,0,0
-2701617650,GGI-A-16,open,Setup a strategy for corporate open source governance,"Decision Maker,Not Selected,Strategy Goal",2024-11-28 10:16:06+00:00,https://api.github.com/repos/ospo-alliance/my-ggi-board-test/issues/7,0,0
-2701617521,GGI-A-43,open,Open source procurement policy,"Decision Maker,Not Selected,Engagement Goal",2024-11-28 10:16:03+00:00,https://api.github.com/repos/ospo-alliance/my-ggi-board-test/issues/6,0,0
-2701617397,GGI-A-33,open,Engage with open source vendors,"Decision Maker,Not Selected,Engagement Goal",2024-11-28 10:16:00+00:00,https://api.github.com/repos/ospo-alliance/my-ggi-board-test/issues/5,0,0
-2701617271,GGI-A-31,open,Publicly assert use of open source,"Team Leader,Decision Maker,Not Selected,Engagement Goal",2024-11-28 10:15:57+00:00,https://api.github.com/repos/ospo-alliance/my-ggi-board-test/issues/4,0,0
-2701617153,GGI-A-30,open,Support open source communities,"Decision Maker,Not Selected,Engagement Goal",2024-11-28 10:15:54+00:00,https://api.github.com/repos/ospo-alliance/my-ggi-board-test/issues/3,0,0
-2701617015,GGI-A-29,open,Engage with open source projects,"Developer,Decision Maker,Not Selected,Engagement Goal",2024-11-28 10:15:51+00:00,https://api.github.com/repos/ospo-alliance/my-ggi-board-test/issues/2,0,0
-2701616590,GGI-A-39,open,Upstream first,"Developer,Team Leader,Not Selected,Culture Goal",2024-11-28 10:15:48+00:00,https://api.github.com/repos/ospo-alliance/my-ggi-board-test/issues/1,0,0
+2705425871,GGI-A-37,open,Open source enabling digital transformation,"Decision Maker,Not Selected,Strategy Goal",2024-11-29 15:21:11+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/25,0,0
+2705425804,GGI-A-36,open,Open source enabling innovation,"Decision Maker,Not Selected,Strategy Goal",2024-11-29 15:21:08+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/24,0,0
+2705425672,GGI-A-35,open,Open source and digital sovereignty,"Decision Maker,Not Selected,Strategy Goal",2024-11-29 15:21:04+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/23,0,0
+2705425590,GGI-A-34,open,C-Level awareness,"Decision Maker,Not Selected,Strategy Goal",2024-11-29 15:21:01+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/22,0,0
+2705425493,GGI-A-16,open,Setup a strategy for corporate open source governance,"Decision Maker,Not Selected,Strategy Goal",2024-11-29 15:20:58+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/21,0,0
+2705425413,GGI-A-43,open,Open source procurement policy,"Decision Maker,Not Selected,Engagement Goal",2024-11-29 15:20:55+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/20,0,0
+2705425328,GGI-A-33,open,Engage with open source vendors,"Decision Maker,Not Selected,Engagement Goal",2024-11-29 15:20:52+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/19,0,0
+2705425240,GGI-A-31,open,Publicly assert use of open source,"Team Leader,Decision Maker,Not Selected,Engagement Goal",2024-11-29 15:20:49+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/18,0,0
+2705425171,GGI-A-30,open,Support open source communities,"Decision Maker,Not Selected,Engagement Goal",2024-11-29 15:20:45+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/17,0,0
+2705425097,GGI-A-29,open,Engage with open source projects,"Developer,Decision Maker,Not Selected,Engagement Goal",2024-11-29 15:20:42+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/16,0,0
+2705424992,GGI-A-39,open,Upstream first,"Developer,Team Leader,Not Selected,Culture Goal",2024-11-29 15:20:39+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/15,0,0
+2705424920,GGI-A-28,open,HR perspective,"Decision Maker,Not Selected,Culture Goal",2024-11-29 15:20:36+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/14,0,0
+2705424850,GGI-A-27,open,Belong to the open source community,"Team Leader,Decision Maker,Not Selected,Culture Goal",2024-11-29 15:20:33+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/13,0,0
+2705424752,GGI-A-26,open,Contribute to open source projects,"Developer,Team Leader,Not Selected,Culture Goal",2024-11-29 15:20:30+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/12,0,0
+2705424657,GGI-A-25,open,Promote open source development best practices,"Developer,Team Leader,Not Selected,Culture Goal",2024-11-29 15:20:27+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/11,0,0
+2705424583,GGI-A-44,open,Run code reviews,"Developer,Team Leader,Not Selected,Trust Goal",2024-11-29 15:20:24+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/10,0,0
+2705424496,GGI-A-24,open,Manage key indicators,"Team Leader,Decision Maker,Not Selected,Trust Goal",2024-11-29 15:20:21+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/9,0,0
+2705424427,GGI-A-23,open,Manage software dependencies,"Developer,Team Leader,Not Selected,Trust Goal",2024-11-29 15:20:18+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/8,0,0
+2705424358,GGI-A-22,open,Manage software vulnerabilities,"Team Leader,Not Selected,Trust Goal",2024-11-29 15:20:15+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/7,0,0
+2705424288,GGI-A-21,open,Manage legal compliance,"Decision Maker,Not Selected,Trust Goal",2024-11-29 15:20:12+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/6,0,0
+2705424204,GGI-A-42,open,Manage open source skills and resources,"Team Leader,Not Selected,Usage Goal",2024-11-29 15:20:09+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/5,0,0
+2705424101,GGI-A-20,open,Open source enterprise software,"Decision Maker,Not Selected,Usage Goal",2024-11-29 15:20:07+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/4,0,0
+2705424024,GGI-A-19,open,Open source supervision,"Team Leader,Not Selected,Usage Goal",2024-11-29 15:20:03+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/3,0,0
+2705423956,GGI-A-18,open,Open source competency growth,"Team Leader,Not Selected,Usage Goal",2024-11-29 15:20:00+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/2,0,0
+2705423872,GGI-A-17,open,Inventory of open source skills and resources,"Developer,Team Leader,Not Selected,Usage Goal",2024-11-29 15:19:57+00:00,https://api.github.com/repos/borisbaldassari/my-ggi-deploy/issues/1,0,0
