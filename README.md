@@ -72,6 +72,7 @@ In case the instance admin has disabled the _project_ access token, you can use 
 
 ### Setup the environment
 
+1. Clone your repository locally
 1. Edit the file in `conf/ggi_deployment.json`, and set the variables `gitlab_url` (such as `https://gitlab.com`) and `gitlab_project` (such as `ggi/my-ggi-board-test`)
 1. Commit and publish that file to your repository
 1. Export the access token as an environment variable: `export GGI_GITLAB_TOKEN=xxxxxxx`.
@@ -80,7 +81,6 @@ In case the instance admin has disabled the _project_ access token, you can use 
 
     <img src="resources/setup_create-variable-1.png" width="50%" height="50%"> <img src="resources/setup_create-variable-2.png" width="50%" height="50%">
 
-1. Clone your repository locally
 1. Create a virtual env and install requirements.
 
     ```
